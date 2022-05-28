@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheatreActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:focusable="true"
+                    android:linksClickable="true"
+                    android:onClick="goToSo10"
+                    app:srcCompat="@drawable/_0ebfd4d84e14a80a89ed7264541"
+                    tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text='"Варшавская мелодия" Постановка Продюсерский центр «Ника»'
+                    android:textColor="#2C3A2C"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#C7BAB9"
+                    android:onClick="goToSu10"
+                    android:text="Посмотреть на карте" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:focusable="true"
+                    android:linksClickable="true"
+                    android:onClick="goToSo11"
+                    app:srcCompat="@drawable/_41965c791884849971b3171f9a5"
+                    tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text='"И жизнь, и театр, и кино" Постановка Губернский театр'
+                    android:textColor="#2C3A2C"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#C7BAB9"
+                    android:onClick="goToSu11"
+                    android:text="Посмотреть на карте" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:focusable="true"
+                    android:linksClickable="true"
+                    android:onClick="goToSo12"
+                    app:srcCompat="@drawable/a1b75c28840544a3a9afe8db1e20"
+                    tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text='"Мизери" Постановка Современный театр антрепризы'
+                    android:textColor="#2C3A2C"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#C7BAB9"
+                    android:onClick="goToSu12"
+                    android:text="Посмотреть на карте" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:focusable="true"
+                    android:linksClickable="true"
+                    android:onClick="goToSo13"
+                    app:srcCompat="@drawable/b53333443fb44db1bb92e5e42864"
+                    tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text='"Шутки в глухомани" Постановка Театр п/р Сергея Афанасьева'
+                    android:textColor="#2C3A2C"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#C7BAB9"
+                    android:onClick="goToSu13"
+                    android:text="Посмотреть на карте" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/todo24"
+                    android:cursorVisible="true"
+                    android:focusable="true"
+                    android:linksClickable="true"
+                    android:onClick="goToSo14"
+                    app:srcCompat="@drawable/cec209bbeb3e4dc5b2190543f68d"
+                    tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text='"Мастер и Маргарита" Постановка Театральная компания Сергея Алдонина'
+                    android:textColor="#2C3A2C"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#C7BAB9"
+                    android:onClick="goToSu14"
+                    android:text="Посмотреть на карте" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#C7BAB9"
+                    android:text="Назад" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="391dp"
+        android:layout_height="805dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
